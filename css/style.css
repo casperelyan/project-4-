@@ -2,17 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:ital,wght@0,300;0,700;0,900;1,700&display=swap');
 
-/* universal selector", matches any element on a page. It selects all elements in the HTML*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
     background-color: #009101;
-    background-image: radial-gradient(circle at 50% 50%, #009101, #009100, #009200, #009300);
+    background-image: radial-gradient(circle at 50% 50%, #55d264, #41a136, #339c2b, #2a781c );
     height: 100vh;
 }  
 
@@ -20,24 +12,50 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
+
 .logo-container img {
-  width: 200px;
+  width: 250px;
 }
 
 .buttons-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 22em;
+  position: absolute;
+  top: 11em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
 }
 
 .login-button,
 .register-button {
+  width: 50%;
   padding: 1rem 2rem;
-  border: 2px solid #000;
-  border-radius: 25px;
+  border: 1px solid #000;
+  border-radius: 10px;
   font-size: 1.2rem;
   font-family: 'Fjalla One', sans-serif;
-  text-transform: u
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  background-color: #f6e7e2;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #c47e38;
+  color: white;
+  cursor: pointer;
+}
