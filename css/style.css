@@ -7,7 +7,16 @@ body {
     background-image: radial-gradient(circle at 50% 50%, #55d264, #41a136, #339c2b, #2a781c );
     height: 100vh;
 }  
+h1 {
+  font-family:'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3.5rem;
+  color:#f6e7e2;
+  margin-top: 2.5em;
 
+}
 .logo-container {
   display: flex;
   align-items: center;
@@ -47,6 +56,7 @@ body {
   font-size: 1.2rem;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
   margin-bottom: 0.5em;
   background-color: #f6e7e2;
   transition: all 0.2s ease-in-out;
@@ -58,4 +68,18 @@ body {
   background-color: #c47e38;
   color: white;
   cursor: pointer;
+}
+
+/* logo container for the top of login and register page */
+
+.logo-container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.logo-container-login img {
+  width: 70%;
+  max-width: 300px
 }
