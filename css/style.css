@@ -21,7 +21,7 @@ body {
 
 
 .logo-container img {
-  width: 250px;
+  width: 280px;
 }
 
 .buttons-container {
@@ -42,7 +42,7 @@ body {
 .register-button {
   width: 50%;
   padding: 1rem 2rem;
-  border: 1px solid #000;
+  border: 1px solid #0eb208;
   border-radius: 10px;
   font-size: 1.2rem;
   font-family: 'Fjalla One', sans-serif;
