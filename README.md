@@ -25,15 +25,9 @@ Designed with the hiker in mind, the app offers a simple, intuitive interface an
 
 
  * ## Main page / Login page 
- The main page of the app features a login or registration button for unregistered users. Upon logging in with their credentials, users are redirected to the main weather app. If they need to register, they will be prompted to fill in three mandatory fields: name/nickname, email address, and age, as well as a gender field. The inclusion of the gender field is important as weather conditions can affect different genders differently and accurate data is necessary to provide the best weather information. The buttons on the main page are designed for ease of use, even in challenging weather conditions, making it convenient for hikers to access the information they need.
+ The main page of the app features a login or registration button for unregistered users. Upon logging in with their credentials, users are redirected to the main weather app. If they need to register, they will be prompted to fill in three mandatory fields: name/nickname, email address, and age. The buttons on the main page are designed for ease of use, even in challenging weather conditions, making it convenient for hikers to access the information they need.
 
-
-
-
-
-
-
-
+![MainPage](https://res.cloudinary.com/dqoovwhgm/image/upload/v1676031631/hiking%20weather%20app%20-%20project%204/app_screenshots_login_register_watyce.jpg)
 
 # Features :
 

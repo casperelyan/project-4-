@@ -23,14 +23,14 @@ h1 {
   justify-content: center;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 10em;
   left: 0;
   right: 0;
 }
 
 
 .logo-container img {
-  width: 280px;
+  width: 350px;
 }
 
 .buttons-container {
@@ -45,6 +45,10 @@ h1 {
   left: 0;
   right: 0;
 
+}
+
+label {
+  display: inline-block;
 }
 
 .login-button,
@@ -102,12 +106,22 @@ h1 {
 
 .form-group {
   width: 100%;
-  margin: 1em 0;
+  margin: 0.9em 0;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: 'Fjalla One', sans-serif;
 
 }
+
+/*.radio-button-form {
+  text-align: left;
+  width: 100%;
+  margin: auto 2em;
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: 'Fjalla One', sans-serif;
+
+}*/
 
 input[type="password"] input[type="email"] {
   padding: 0.5em;
@@ -116,30 +130,48 @@ input[type="password"] input[type="email"] {
   border-radius: 5px;
   outline: none;
 }
-/*add orange border around enter field when user click on it*/
-
-input[type="email"]:focus, input[type="password"]:focus {
-  box-shadow: 0 0 10px #e85703;
+/*add orange border around enter field when user click in it*/
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="number"]:focus {
+  box-shadow: 0 0 12px #e85703;
 }
 
 
 input[type="checkbox"] {
-  margin-top: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 2em;
 }
+
+
+
+/*remove all decoration from links text*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 
 #email, #password, #name {
   font-size: 18pt;
+  
     height: 1.5em;
     width : 13em;
-    margin: 0.5em 1.2em;
+    margin: 0.2em 1.2em;
 }
 
 #birth-year {
   font-size: 18pt;
     height: 1.5em;
-    width : 8em;
-    margin: 0.5em 1.2em;
+    width : 10em;
+    margin: 0.3em 1.2em;
 }
+
+.radio-button {
+  text-align: left;
+  display: inline-block;
+
+}
+
+
 .btn-primary {
   width: 40%;
   padding: 1rem 2rem;
