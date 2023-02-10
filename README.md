@@ -21,7 +21,7 @@ Designed with the hiker in mind, the app offers a simple, intuitive interface an
  * ## Logo 
  The logo for True Peak was created with the help of an AI app called Brandmark, while the colour palette was generated using another popular website among designers, Coolors.co. The green and warm brown colours in the logo convey a sense of the great outdoors and the rugged beauty of nature.The name True Peak is just a designer invention
 
- ![ColorPallete][https://res.cloudinary.com/dqoovwhgm/image/upload/v1675772060/hiking%20weather%20app%20-%20project%204/true_peak_brand_colors_pmiswx.jpg]
+ ![ColorPallete](https://res.cloudinary.com/dqoovwhgm/image/upload/v1675772060/hiking%20weather%20app%20-%20project%204/true_peak_brand_colors_pmiswx.jpg)
 
 
  * ## Main page / Login page 

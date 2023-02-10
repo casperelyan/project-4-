@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dqoovwhgm/image/upload/v1675772427/hiking%20weather%20app%20-%20project%204/logo_true_peak_favicon_hldqih.jpg">
     <title>True Peak - weather for hikers </title>
-    <script defer src="assets/js/script.js"></script>
+    <script defer src="js/script.js"></script>
 
 </head>
 
@@ -32,16 +32,18 @@
           <input type="email" class="form-control" id="email" placeholder="Enter email">
         </div>
         <div class="form-group">
+          <div class="radio_button"></div>
           <label for="gender">Gender</label><br>
           <input type="radio" name="gender" value="female"> Female<br>
           <input type="radio" name="gender" value="male"> Male<br>
           <input type="radio" name="gender" value="not-specified"> Not specified
         </div>
+      </div>
         <div class="form-group">
           <label for="birth-year">Year of your birth</label>
-          <input type="number" class="form-control" id="birth-year" placeholder="Enter your birth year">
+          <input type="number" min="1900" max="2023" class="form-control" id="birth-year" placeholder="Enter your birth year">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn-primary">Submit</button>
       </form>
        
       ​

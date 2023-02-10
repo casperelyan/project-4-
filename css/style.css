@@ -127,13 +127,19 @@ input[type="checkbox"] {
   margin-top: 1em;
 }
 
-#email, #password, #name, #birth-year {
+#email, #password, #name {
   font-size: 18pt;
     height: 1.5em;
     width : 13em;
     margin: 0.5em 1.2em;
 }
 
+#birth-year {
+  font-size: 18pt;
+    height: 1.5em;
+    width : 8em;
+    margin: 0.5em 1.2em;
+}
 .btn-primary {
   width: 40%;
   padding: 1rem 2rem;
