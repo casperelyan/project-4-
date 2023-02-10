@@ -48,11 +48,12 @@ h1 {
 }
 
 .login-button,
-.register-button {
+.register-button
+{
   width: 50%;
   padding: 1rem 2rem;
   border: 1px solid #0eb208;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 1.2rem;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
@@ -73,13 +74,88 @@ h1 {
 /* logo container for the top of login and register page */
 
 .logo-container-login {
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 5px;
+  display: block;
+  margin: 1em auto;
+
 }
 
 .logo-container-login img {
   width: 70%;
-  max-width: 300px
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 2em auto;
+
+}
+
+/* CSS code to style the login/register pages form: */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  width: 100%;
+  margin: 1em 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+input[type="password"] input[type="email"] {
+  padding: 0.5em;
+  font-family: 'Fjalla One', sans-serif;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+/*add orange border around enter field when user click on it*/
+
+input[type="email"]:focus, input[type="password"]:focus {
+  box-shadow: 0 0 10px #e85703;
+}
+
+
+input[type="checkbox"] {
+  margin-top: 1em;
+}
+
+#email, #password, #name, #birth-year {
+  font-size: 18pt;
+    height: 1.5em;
+    width : 13em;
+    margin: 0.5em 1.2em;
+}
+
+.btn-primary {
+  width: 40%;
+  padding: 1rem 2rem;
+  border: 1px solid #0eb208;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  
+  background-color: #f6e7e2;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 2em auto;
+
+}
+
+.btn-primary {
+  background-color: #c47e38;
+  color: white;
+  cursor: pointer;
 }
