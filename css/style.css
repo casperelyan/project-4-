@@ -197,7 +197,33 @@ a:active { text-decoration: none; }
 
 }
 
-.btn-primary {
+.btn-primary:hover {
+  background-color: #c47e38;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary-welcome {
+  width: 60%;
+  padding: 1rem 2rem;
+  border: 1px solid #0eb208;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  
+  background-color: #f6e7e2;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 2em auto;
+
+}
+
+.btn-primary-welcome:hover {
   background-color: #c47e38;
   color: white;
   cursor: pointer;
